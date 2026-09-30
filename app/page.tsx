@@ -1,10 +1,10 @@
 const projects=[
-["Health & Leão e Kourani Software","ERP interno para gestão financeira, contratos, RH, pagamentos e indicadores.","PostgreSQL • Cloud • Sistemas corporativos"],
-["Gerador de Contratos","Sistema para criação, acompanhamento e assinatura de contratos por link, com validações e segurança.","Web • Segurança • Automação"],
-["IC TECH","Plataforma acadêmica para gerenciamento ágil de equipes, com práticas de Scrum e Kanban.","HTML • CSS • JavaScript • Kanban"],
-["Inventário Web","Sistema para controle de patrimônio, equipamentos, ocorrências e organização por local.","Web • Inventário • Gestão"],
-["Comunicação Interna","Aplicação para avisos corporativos, departamentos e perfis de acesso.","Python • Flask • Banco de dados"],
-["Projeto Costura","Sistema de gestão de produção, entregas, notas, precificação e acompanhamento de tarefas.","Gestão • Produção • Web"]
+["Rivilog Pickup","Sistema web para planejamento, execução e monitoramento de coletas, com validação geográfica, auditoria, mapas e notificações.","Next.js 16 • React 19 • TypeScript • PostgreSQL"],
+["Rivilog Pedágios","Plataforma para registro de despesas de pedágio, envio de comprovantes e extratos, protocolos, painel administrativo e exportações.","Next.js 16 • TypeScript • Supabase • Vercel"],
+["Gerador de Contratos","Sistema para criação, assinatura e acompanhamento de contratos, compartilhamento por link temporário e organização de agendamentos.","Python • Flask • PostgreSQL • Segurança"],
+["Visualizador de Holerites","Solução desenvolvida para facilitar a consulta e visualização organizada de holerites.","Sistema Web • Documentos • Consulta"],
+["Sistema de Gestão L&H","Sistema privado que centraliza processos administrativos, financeiros, contratuais, faturamento, recebimentos e documentos.","Python • Flask • PostgreSQL • Cloudflare R2"],
+["IC TECH","Plataforma acadêmica voltada ao gerenciamento ágil de equipes e organização de atividades com práticas de Scrum e Kanban.","Desenvolvimento Web • Scrum • Kanban"]
 ];
 const certs=[["Excel Completo","80h"],["Web 3.0","20h"],["Fundamentos da Inteligência Artificial","8h"],["Privacidade e Proteção de Dados (LGPD)","4h"],["Desvendando a Indústria 4.0","20h"],["Desvendando o ESG","20h"],["Economia Circular","20h"],["Empreender SENAI","20h"],["Segurança no Trabalho","14h"],["Desvendando o 5G","15h"]];
 export default function Home(){return <main>
